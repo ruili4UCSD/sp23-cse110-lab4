@@ -1,0 +1,2 @@
+1. num1 and num2 are strings, so when use `let result = num1 + num2`, js just attached string num2 to the tail of string num1, for example, '1'+'2'='12'. So result is a string, but not a correct number result.
+2. Use Numer() to convert num1 and num2 to Number.
